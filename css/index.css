@@ -1,0 +1,63 @@
+h1{
+  font-family: Arial;
+  font-weight: bold;
+  margin-left: 10px;
+  display: inline;
+  color: white;
+  font-size: 40px;
+}
+a:link {
+  text-decoration: none;
+  color: white;
+  transition: opacity 0.3s;
+}
+a:visited {
+  color: white;
+}
+img{
+  width: 100%;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+  display: block;
+}
+.menu{
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-family: Arial;
+}
+.menu-side{
+  overflow: hidden;
+  background-color: black;
+  float: right;
+}
+.menu-side a{
+  font-size: 20px;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  padding: 15px;
+  padding-bottom: 0;
+  text-align:center;
+}
+.container{
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  background-color: black;
+}
+
+a:hover {
+  opacity: 0.7
+}
+a:active {
+  opacity: 0.5;
+}
+
+body{
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
