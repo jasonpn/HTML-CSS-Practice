@@ -78,7 +78,7 @@ a:visited {
   text-align: center;
   font-family: Arial;
   margin-top: 0;
-  top: 100%
+  top: 100%;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   transition: visibility 0s, opacity 0.3s linear;
